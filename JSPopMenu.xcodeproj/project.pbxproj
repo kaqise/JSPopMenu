@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50C01CEFDCE8EE8FB498B32D /* libPods-JSPopMenuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAF366B02CDD826E3B48918 /* libPods-JSPopMenuTests.a */; };
+		D97907C01FAC6ADE00561753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97907BF1FAC6ADE00561753 /* main.m */; };
+		D97907C31FAC6ADE00561753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97907C21FAC6ADE00561753 /* AppDelegate.m */; };
+		D97907C61FAC6ADE00561753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97907C51FAC6ADE00561753 /* ViewController.m */; };
+		D97907C91FAC6ADE00561753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97907C71FAC6ADE00561753 /* Main.storyboard */; };
+		D97907CB1FAC6ADE00561753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97907CA1FAC6ADE00561753 /* Assets.xcassets */; };
+		D97907CE1FAC6ADE00561753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97907CC1FAC6ADE00561753 /* LaunchScreen.storyboard */; };
+		D97907D91FAC6ADE00561753 /* JSPopMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97907D81FAC6ADE00561753 /* JSPopMenuTests.m */; };
+		D97907E41FAC6ADE00561753 /* JSPopMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97907E31FAC6ADE00561753 /* JSPopMenuUITests.m */; };
+		D97908051FAC712A00561753 /* ExaminePopover.plist in Resources */ = {isa = PBXBuildFile; fileRef = D97907FE1FAC712A00561753 /* ExaminePopover.plist */; };
+		D97908061FAC712A00561753 /* JSPopoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D97908001FAC712A00561753 /* JSPopoverCell.m */; };
+		D97908071FAC712A00561753 /* JSPopoverMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97908021FAC712A00561753 /* JSPopoverMenuController.m */; };
+		D97908081FAC712A00561753 /* JSPopoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D97908041FAC712A00561753 /* JSPopoverModel.m */; };
+		DC3DA38814D589924C105677 /* libPods-JSPopMenuUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 633A510E3ACED1104ED4510A /* libPods-JSPopMenuUITests.a */; };
+		DD0E2D8FC7AFEFC75505B9AE /* libPods-JSPopMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC521513487171B969BF7641 /* libPods-JSPopMenu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D97907D51FAC6ADE00561753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97907B31FAC6ADE00561753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97907BA1FAC6ADE00561753;
+			remoteInfo = JSPopMenu;
+		};
+		D97907E01FAC6ADE00561753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97907B31FAC6ADE00561753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97907BA1FAC6ADE00561753;
+			remoteInfo = JSPopMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC6D6075EEFD9AFF25BB461 /* Pods-JSPopMenuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPopMenuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPopMenuUITests/Pods-JSPopMenuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A98AA3D99527014336F6844 /* Pods-JSPopMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPopMenuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPopMenuTests/Pods-JSPopMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49E7CA5282EF252BADB60DB9 /* Pods-JSPopMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPopMenuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPopMenuTests/Pods-JSPopMenuTests.release.xcconfig"; sourceTree = "<group>"; };
+		633A510E3ACED1104ED4510A /* libPods-JSPopMenuUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPopMenuUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC521513487171B969BF7641 /* libPods-JSPopMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPopMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97907BB1FAC6ADE00561753 /* JSPopMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPopMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97907BF1FAC6ADE00561753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D97907C11FAC6ADE00561753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D97907C21FAC6ADE00561753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D97907C41FAC6ADE00561753 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D97907C51FAC6ADE00561753 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D97907C81FAC6ADE00561753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D97907CA1FAC6ADE00561753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D97907CD1FAC6ADE00561753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D97907CF1FAC6ADE00561753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97907D41FAC6ADE00561753 /* JSPopMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPopMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97907D81FAC6ADE00561753 /* JSPopMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPopMenuTests.m; sourceTree = "<group>"; };
+		D97907DA1FAC6ADE00561753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97907DF1FAC6ADE00561753 /* JSPopMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPopMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97907E31FAC6ADE00561753 /* JSPopMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPopMenuUITests.m; sourceTree = "<group>"; };
+		D97907E51FAC6ADE00561753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97907FE1FAC712A00561753 /* ExaminePopover.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExaminePopover.plist; sourceTree = "<group>"; };
+		D97907FF1FAC712A00561753 /* JSPopoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPopoverCell.h; sourceTree = "<group>"; };
+		D97908001FAC712A00561753 /* JSPopoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPopoverCell.m; sourceTree = "<group>"; };
+		D97908011FAC712A00561753 /* JSPopoverMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPopoverMenuController.h; sourceTree = "<group>"; };
+		D97908021FAC712A00561753 /* JSPopoverMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPopoverMenuController.m; sourceTree = "<group>"; };
+		D97908031FAC712A00561753 /* JSPopoverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPopoverModel.h; sourceTree = "<group>"; };
+		D97908041FAC712A00561753 /* JSPopoverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPopoverModel.m; sourceTree = "<group>"; };
+		DD966A4794A1815260D25125 /* Pods-JSPopMenuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPopMenuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPopMenuUITests/Pods-JSPopMenuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE16325E474034452E4BE023 /* Pods-JSPopMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPopMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPopMenu/Pods-JSPopMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB7904E73AA1637C2A98E96 /* Pods-JSPopMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPopMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPopMenu/Pods-JSPopMenu.release.xcconfig"; sourceTree = "<group>"; };
+		FCAF366B02CDD826E3B48918 /* libPods-JSPopMenuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPopMenuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D97907B81FAC6ADE00561753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0E2D8FC7AFEFC75505B9AE /* libPods-JSPopMenu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97907D11FAC6ADE00561753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C01CEFDCE8EE8FB498B32D /* libPods-JSPopMenuTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97907DC1FAC6ADE00561753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3DA38814D589924C105677 /* libPods-JSPopMenuUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B7A4FDD8FFF918798200D6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC521513487171B969BF7641 /* libPods-JSPopMenu.a */,
+				FCAF366B02CDD826E3B48918 /* libPods-JSPopMenuTests.a */,
+				633A510E3ACED1104ED4510A /* libPods-JSPopMenuUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E400A474AD528642E650225 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE16325E474034452E4BE023 /* Pods-JSPopMenu.debug.xcconfig */,
+				EAB7904E73AA1637C2A98E96 /* Pods-JSPopMenu.release.xcconfig */,
+				3A98AA3D99527014336F6844 /* Pods-JSPopMenuTests.debug.xcconfig */,
+				49E7CA5282EF252BADB60DB9 /* Pods-JSPopMenuTests.release.xcconfig */,
+				DD966A4794A1815260D25125 /* Pods-JSPopMenuUITests.debug.xcconfig */,
+				0CC6D6075EEFD9AFF25BB461 /* Pods-JSPopMenuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D97907B21FAC6ADE00561753 = {
+			isa = PBXGroup;
+			children = (
+				D97907BD1FAC6ADE00561753 /* JSPopMenu */,
+				D97907D71FAC6ADE00561753 /* JSPopMenuTests */,
+				D97907E21FAC6ADE00561753 /* JSPopMenuUITests */,
+				D97907BC1FAC6ADE00561753 /* Products */,
+				4E400A474AD528642E650225 /* Pods */,
+				4B7A4FDD8FFF918798200D6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D97907BC1FAC6ADE00561753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97907BB1FAC6ADE00561753 /* JSPopMenu.app */,
+				D97907D41FAC6ADE00561753 /* JSPopMenuTests.xctest */,
+				D97907DF1FAC6ADE00561753 /* JSPopMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D97907BD1FAC6ADE00561753 /* JSPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D97907FC1FAC70D600561753 /* JSPopoverMenu */,
+				D97907FD1FAC710900561753 /* Ohter */,
+				D97907BE1FAC6ADE00561753 /* Supporting Files */,
+			);
+			path = JSPopMenu;
+			sourceTree = "<group>";
+		};
+		D97907BE1FAC6ADE00561753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97907BF1FAC6ADE00561753 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D97907D71FAC6ADE00561753 /* JSPopMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				D97907D81FAC6ADE00561753 /* JSPopMenuTests.m */,
+				D97907DA1FAC6ADE00561753 /* Info.plist */,
+			);
+			path = JSPopMenuTests;
+			sourceTree = "<group>";
+		};
+		D97907E21FAC6ADE00561753 /* JSPopMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D97907E31FAC6ADE00561753 /* JSPopMenuUITests.m */,
+				D97907E51FAC6ADE00561753 /* Info.plist */,
+			);
+			path = JSPopMenuUITests;
+			sourceTree = "<group>";
+		};
+		D97907FC1FAC70D600561753 /* JSPopoverMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D97907FE1FAC712A00561753 /* ExaminePopover.plist */,
+				D97907FF1FAC712A00561753 /* JSPopoverCell.h */,
+				D97908001FAC712A00561753 /* JSPopoverCell.m */,
+				D97908011FAC712A00561753 /* JSPopoverMenuController.h */,
+				D97908021FAC712A00561753 /* JSPopoverMenuController.m */,
+				D97908031FAC712A00561753 /* JSPopoverModel.h */,
+				D97908041FAC712A00561753 /* JSPopoverModel.m */,
+			);
+			path = JSPopoverMenu;
+			sourceTree = "<group>";
+		};
+		D97907FD1FAC710900561753 /* Ohter */ = {
+			isa = PBXGroup;
+			children = (
+				D97907C41FAC6ADE00561753 /* ViewController.h */,
+				D97907C51FAC6ADE00561753 /* ViewController.m */,
+				D97907C11FAC6ADE00561753 /* AppDelegate.h */,
+				D97907C21FAC6ADE00561753 /* AppDelegate.m */,
+				D97907C71FAC6ADE00561753 /* Main.storyboard */,
+				D97907CA1FAC6ADE00561753 /* Assets.xcassets */,
+				D97907CC1FAC6ADE00561753 /* LaunchScreen.storyboard */,
+				D97907CF1FAC6ADE00561753 /* Info.plist */,
+			);
+			name = Ohter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D97907BA1FAC6ADE00561753 /* JSPopMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97907E81FAC6ADE00561753 /* Build configuration list for PBXNativeTarget "JSPopMenu" */;
+			buildPhases = (
+				82E2AB59EEDD3DC7A5F5A5F4 /* [CP] Check Pods Manifest.lock */,
+				D97907B71FAC6ADE00561753 /* Sources */,
+				D97907B81FAC6ADE00561753 /* Frameworks */,
+				D97907B91FAC6ADE00561753 /* Resources */,
+				90C0FDA175CC9C8D82E3C0C4 /* [CP] Embed Pods Frameworks */,
+				315CD1C057BCFCF347740047 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPopMenu;
+			productName = JSPopMenu;
+			productReference = D97907BB1FAC6ADE00561753 /* JSPopMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D97907D31FAC6ADE00561753 /* JSPopMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97907EB1FAC6ADE00561753 /* Build configuration list for PBXNativeTarget "JSPopMenuTests" */;
+			buildPhases = (
+				7A7643F0041DA83B7D31DFE0 /* [CP] Check Pods Manifest.lock */,
+				D97907D01FAC6ADE00561753 /* Sources */,
+				D97907D11FAC6ADE00561753 /* Frameworks */,
+				D97907D21FAC6ADE00561753 /* Resources */,
+				4CD6D3BF05FF9DEDD7849F48 /* [CP] Embed Pods Frameworks */,
+				63C752CEC55EACBCB737C4B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97907D61FAC6ADE00561753 /* PBXTargetDependency */,
+			);
+			name = JSPopMenuTests;
+			productName = JSPopMenuTests;
+			productReference = D97907D41FAC6ADE00561753 /* JSPopMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D97907DE1FAC6ADE00561753 /* JSPopMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97907EE1FAC6ADE00561753 /* Build configuration list for PBXNativeTarget "JSPopMenuUITests" */;
+			buildPhases = (
+				AEBAC1262D5FE7E322F2818F /* [CP] Check Pods Manifest.lock */,
+				D97907DB1FAC6ADE00561753 /* Sources */,
+				D97907DC1FAC6ADE00561753 /* Frameworks */,
+				D97907DD1FAC6ADE00561753 /* Resources */,
+				6201407E09B9C8EF57CD4649 /* [CP] Embed Pods Frameworks */,
+				DB9B6D03D93882620D8F24CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97907E11FAC6ADE00561753 /* PBXTargetDependency */,
+			);
+			name = JSPopMenuUITests;
+			productName = JSPopMenuUITests;
+			productReference = D97907DF1FAC6ADE00561753 /* JSPopMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D97907B31FAC6ADE00561753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FengDing_Ping;
+				TargetAttributes = {
+					D97907BA1FAC6ADE00561753 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D97907D31FAC6ADE00561753 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D97907BA1FAC6ADE00561753;
+					};
+					D97907DE1FAC6ADE00561753 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D97907BA1FAC6ADE00561753;
+					};
+				};
+			};
+			buildConfigurationList = D97907B61FAC6ADE00561753 /* Build configuration list for PBXProject "JSPopMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D97907B21FAC6ADE00561753;
+			productRefGroup = D97907BC1FAC6ADE00561753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D97907BA1FAC6ADE00561753 /* JSPopMenu */,
+				D97907D31FAC6ADE00561753 /* JSPopMenuTests */,
+				D97907DE1FAC6ADE00561753 /* JSPopMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D97907B91FAC6ADE00561753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97908051FAC712A00561753 /* ExaminePopover.plist in Resources */,
+				D97907CE1FAC6ADE00561753 /* LaunchScreen.storyboard in Resources */,
+				D97907CB1FAC6ADE00561753 /* Assets.xcassets in Resources */,
+				D97907C91FAC6ADE00561753 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97907D21FAC6ADE00561753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97907DD1FAC6ADE00561753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		315CD1C057BCFCF347740047 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPopMenu/Pods-JSPopMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CD6D3BF05FF9DEDD7849F48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPopMenuTests/Pods-JSPopMenuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6201407E09B9C8EF57CD4649 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPopMenuUITests/Pods-JSPopMenuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63C752CEC55EACBCB737C4B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPopMenuTests/Pods-JSPopMenuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7643F0041DA83B7D31DFE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82E2AB59EEDD3DC7A5F5A5F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90C0FDA175CC9C8D82E3C0C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPopMenu/Pods-JSPopMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBAC1262D5FE7E322F2818F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9B6D03D93882620D8F24CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPopMenuUITests/Pods-JSPopMenuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D97907B71FAC6ADE00561753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97907C61FAC6ADE00561753 /* ViewController.m in Sources */,
+				D97907C31FAC6ADE00561753 /* AppDelegate.m in Sources */,
+				D97908061FAC712A00561753 /* JSPopoverCell.m in Sources */,
+				D97908071FAC712A00561753 /* JSPopoverMenuController.m in Sources */,
+				D97908081FAC712A00561753 /* JSPopoverModel.m in Sources */,
+				D97907C01FAC6ADE00561753 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97907D01FAC6ADE00561753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97907D91FAC6ADE00561753 /* JSPopMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97907DB1FAC6ADE00561753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97907E41FAC6ADE00561753 /* JSPopMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D97907D61FAC6ADE00561753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97907BA1FAC6ADE00561753 /* JSPopMenu */;
+			targetProxy = D97907D51FAC6ADE00561753 /* PBXContainerItemProxy */;
+		};
+		D97907E11FAC6ADE00561753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97907BA1FAC6ADE00561753 /* JSPopMenu */;
+			targetProxy = D97907E01FAC6ADE00561753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D97907C71FAC6ADE00561753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97907C81FAC6ADE00561753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D97907CC1FAC6ADE00561753 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97907CD1FAC6ADE00561753 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D97907E61FAC6ADE00561753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D97907E71FAC6ADE00561753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D97907E91FAC6ADE00561753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE16325E474034452E4BE023 /* Pods-JSPopMenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPopMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengDingkeJi.JSPopMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D97907EA1FAC6ADE00561753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB7904E73AA1637C2A98E96 /* Pods-JSPopMenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPopMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengDingkeJi.JSPopMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D97907EC1FAC6ADE00561753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A98AA3D99527014336F6844 /* Pods-JSPopMenuTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPopMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengDingkeJi.JSPopMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPopMenu.app/JSPopMenu";
+			};
+			name = Debug;
+		};
+		D97907ED1FAC6ADE00561753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E7CA5282EF252BADB60DB9 /* Pods-JSPopMenuTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPopMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengDingkeJi.JSPopMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPopMenu.app/JSPopMenu";
+			};
+			name = Release;
+		};
+		D97907EF1FAC6ADE00561753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD966A4794A1815260D25125 /* Pods-JSPopMenuUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = JSPopMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengDingkeJi.JSPopMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPopMenu;
+			};
+			name = Debug;
+		};
+		D97907F01FAC6ADE00561753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC6D6075EEFD9AFF25BB461 /* Pods-JSPopMenuUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = JSPopMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengDingkeJi.JSPopMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPopMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D97907B61FAC6ADE00561753 /* Build configuration list for PBXProject "JSPopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97907E61FAC6ADE00561753 /* Debug */,
+				D97907E71FAC6ADE00561753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97907E81FAC6ADE00561753 /* Build configuration list for PBXNativeTarget "JSPopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97907E91FAC6ADE00561753 /* Debug */,
+				D97907EA1FAC6ADE00561753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97907EB1FAC6ADE00561753 /* Build configuration list for PBXNativeTarget "JSPopMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97907EC1FAC6ADE00561753 /* Debug */,
+				D97907ED1FAC6ADE00561753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97907EE1FAC6ADE00561753 /* Build configuration list for PBXNativeTarget "JSPopMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97907EF1FAC6ADE00561753 /* Debug */,
+				D97907F01FAC6ADE00561753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D97907B31FAC6ADE00561753 /* Project object */;
+}
